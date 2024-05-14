@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<renewal>
+  <pd>
+    <!-- DirHotList -->
+    <mod guid="{5964abf0-bbc4-11ec-8422-0242ac120002}">
+      <homepage>https://github.com/AndrewA71/FarPlugins</homepage>
+      <changelog>https://github.com/AndrewA71/FarPlugins/blob/master/DirHotList/whatsnew_ru.txt</changelog>
+      <dlpage>https://api.github.com/repos/AndrewA71/FarPlugins/releases/latest</dlpage>
+      <dlrgex64>"browser_download_url":\s?"([^"]+/DirHotList\.(\d+)\.(\d+)\.(\d+)\.zip)"</dlrgex64>
+      <dlrgex86>"browser_download_url":\s?"([^"]+/DirHotList\.(\d+)\.(\d+)\.(\d+)\.zip)"</dlrgex86>
+    </mod>
+  </pd>
+</renewal>

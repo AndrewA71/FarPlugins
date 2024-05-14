@@ -1,0 +1,60 @@
+.Language=English,English
+.PluginContents=Directory Hotlist
+
+@Contents
+$ #What Directory Hotlist is?#
+    #Directory Hotlist# is used for fast jump into high used directories.
+
+    However, FAR has already had facility for fast jumping. It is
+~Folder Shortcuts~@:FolderShortcuts@. But there are some reasons for me
+not to like it. They are following:
+
+    1. The number of shortcuts is limited.
+    2. Sometimes it is difficult to remember which shortcut was used
+       for necessary directory :)
+
+    #Directory Hotlist# provides wider possibilites as well as
+#Midnight Commander#. So, what do we have now?
+
+    1. Unlimited number of shortcuts.
+    2. You can use ~meaningful remarks~@Comments@ for describing your shortcuts.
+    3. You can join your shortcuts into hierarchical structure.
+    4. Both shortcuts and groups can be moved into other groups.
+    5. "Hot keys" can be assigned to both shortcuts and groups.
+
+ See also:
+  ~Working with shortcuts list~@DirectoryHotlist@
+
+@Comments
+$ #Meaningful remarks#
+    You can ask me: using Windows we can name directory as we want, so,
+are there any reasons for giving descriptions?
+
+    I think there are! There are no man of a common sence who will name
+directory something like
+#"C:\Program Files\Interbase Corp\Interbase\bin"#, you may need to use it
+in command line!
+
+@DirectoryHotlist
+$ #Working with shortcuts list#
+ You can use following command for managing list:
+
+  Create shortcut or group                                       #Ins#
+  Edit shortcut or group                                          #F4#
+  Delete shortcut or group                                       #Del#
+
+ Order control:
+
+  Move shortcut or group up                                   #Ctrl-#
+  Move shortcut or group down                                 #Ctrl-#
+
+@Shortcut
+$ #Shortcut creating and editing#
+    This dialog box is used for shortcut creating and editing. Field
+#Directory# must contain path, and field #Description# must contain
+appropriate remark.
+
+@Group
+$ #Group creating and editing#
+    This dialog box is used for group creating and editing. Field
+#Group# must contain group name.
